@@ -11,6 +11,7 @@ import { RuneTypeEnum } from "../../../../enums/rune-type-enum";
 import { GateModel } from "../../../../models/gate-model";
 
 import MonsterHardImg from "../../../../assets/monster-images/hard-monster.png";
+import MonsterEasyImg from "../../../../assets/monster-images/normal-monster.png";
 
 import MonsterEasyGate from "../../../../assets/guild-battle-gates/monster-easy-gate.png";
 import MonsterHardGate from "../../../../assets/guild-battle-gates/monster-hard-gate.png";
@@ -63,7 +64,7 @@ const A1Row2: GateModel[] = [
     scrollCost: 6,
     scrollImage: ScrollImage,
     gateImage: MonsterEasyGate,
-    monsterImage: MonsterEasyGate,
+    monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
     level: undefined,
     element: undefined,
@@ -109,7 +110,7 @@ const A1Row2: GateModel[] = [
     scrollCost: 6,
     scrollImage: ScrollImage,
     gateImage: MonsterEasyGate,
-    monsterImage: MonsterEasyGate,
+    monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
     level: undefined,
     element: undefined,
@@ -131,7 +132,7 @@ const A1Row2: GateModel[] = [
     scrollCost: 6,
     scrollImage: ScrollImage,
     gateImage: MonsterEasyGate,
-    monsterImage: MonsterEasyGate,
+    monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
     level: undefined,
     element: undefined,
@@ -153,7 +154,7 @@ const A1Row2: GateModel[] = [
     scrollCost: 6,
     scrollImage: ScrollImage,
     gateImage: MonsterEasyGate,
-    monsterImage: MonsterEasyGate,
+    monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
     level: undefined,
     element: undefined,
@@ -180,7 +181,7 @@ const A1Row2: GateModel[] = [
     scrollCost: 6,
     scrollImage: ScrollImage,
     gateImage: MonsterEasyGate,
-    monsterImage: MonsterEasyGate,
+    monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
     level: undefined,
     element: undefined,
@@ -239,7 +240,7 @@ const A1Row2: GateModel[] = [
     scrollCost: 6,
     scrollImage: ScrollImage,
     gateImage: MonsterEasyGate,
-    monsterImage: MonsterEasyGate,
+    monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
     level: undefined,
     element: undefined,

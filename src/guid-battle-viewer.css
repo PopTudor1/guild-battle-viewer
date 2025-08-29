@@ -1,42 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+.guild-battle-viewer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  @media (max-width: 1024px) {
+    gap: 4px;
+    padding-bottom: 32px;
+    padding-top: 16px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.title {
+  color: red;
+  font-size: 32px;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
   }
 }
 
-.card {
-  padding: 2em;
+.madeBy {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 8px;
+
+  @media (max-width: 1024px) {
+    font-size: 10px;
+  }
 }
 
-.read-the-docs {
-  color: #888;
+.area-image {
+  cursor: pointer;
+  width: 130px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 4px;
+
+  @media (max-width: 1024px) {
+    width: 50px;
+    height: 25px;
+    margin: 2px;
+  }
+}
+
+.viewer-content {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  gap: 32px;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    gap: 8px;
+  }
 }

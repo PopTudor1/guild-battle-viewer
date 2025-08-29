@@ -1,0 +1,236 @@
+.no-gate-selected {
+  color: white;
+  font-size: 24px;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: fit-content;
+  min-width: 500px;
+  align-items: center;
+  gap: 8px;
+  background-color: #353e44;
+  border-radius: 8px;
+  border: 5px solid gray;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    min-width: auto;
+    padding-bottom: 8px;
+    padding-top: 4px;
+  }
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.modal-title {
+  font-size: 24px;
+  color: rgb(153, 74, 228);
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
+.modal-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+
+  @media (max-width: 1024px) {
+    padding: 8px;
+    gap: 8px;
+  }
+}
+
+.level-container {
+  display: flex;
+  width: fit-content;
+  padding: 4px 32px;
+  border: 1px solid orange;
+  border-radius: 8px;
+}
+
+.level {
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.dungeon-goal {
+  font-size: 16px;
+  color: goldenrod;
+  border-bottom: 1px solid gray;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+}
+
+.gate-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+
+  @media (max-width: 1024px) {
+    padding: 8px;
+  }
+}
+
+.gate-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+
+  @media (max-width: 1024px) {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.description {
+  font-size: 16px;
+  color: white;
+
+  @media (max-width: 1024px) {
+    font-size: 12px;
+  }
+}
+
+.rewards-container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 4px;
+  border: 2px solid gray;
+  border-radius: 8px;
+
+  @media (max-width: 1024px) {
+    width: 90%;
+  }
+}
+
+.reward {
+  font-size: 16px;
+  color: lightblue;
+
+  @media (max-width: 1024px) {
+    font-size: 12px;
+  }
+}
+
+.rewards-list {
+  display: flex;
+  gap: 4px;
+}
+
+.reward-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.reward-image {
+  width: 70px;
+  height: 70px;
+  object-fit: fill;
+
+  @media (max-width: 1024px) {
+    width: 55px;
+    height: 50px;
+  }
+}
+
+.reward-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+
+  @media (max-width: 1024px) {
+    font-size: 12px;
+  }
+}
+
+.fail-message {
+  color: lightgray;
+  font-size: 16px;
+
+  @media (max-width: 1024px) {
+    font-size: 12px;
+  }
+}
+
+.modal-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 16px;
+  align-items: center;
+}
+
+.monster-image {
+  width: 100%;
+  min-height: 300px;
+  object-fit: cover;
+
+  @media (max-width: 1024px) {
+    min-height: 150px;
+  }
+}
+
+.scroll-cost-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  padding: 4px 32px;
+  background-color: rgb(71, 160, 71);
+  width: 20%;
+}
+
+.scroll-image {
+  width: 40px;
+  height: 40px;
+
+  @media (max-width: 1024px) {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.scroll-cost {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
+}
