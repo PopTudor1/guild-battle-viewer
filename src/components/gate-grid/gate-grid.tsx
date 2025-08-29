@@ -1,3 +1,4 @@
+import { GateTypeEnum } from "../../enums/gate-type-enum";
 import { GateModel } from "../../models/gate-model";
 import "./gate-grid.css";
 
@@ -14,6 +15,8 @@ export default function GateGrid({
 }: Props) {
   function handleGateClick(gate: GateModel | null) {
     if (!gate) return;
+    if (gate.type === "SWEEP") return; // 🚫 make it not selectable
+
     setSelectedGate(selectedGate === gate ? null : gate);
   }
 
@@ -36,7 +39,9 @@ export default function GateGrid({
             {row.map((gate, colIndex) => (
               <td
                 key={colIndex}
-                className="gate-cell"
+                className={`gate-cell ${
+                  gate?.type === GateTypeEnum.SWEEP ? "sweep" : ""
+                }`}
                 onClick={() => handleGateClick(gate)}
                 style={{
                   backgroundImage: `url(${gate?.gateImage})`,
