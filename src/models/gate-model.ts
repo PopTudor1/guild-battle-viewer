@@ -1,19 +1,22 @@
+import { ElementTypeEnum } from "../enums/element-type-enum";
 import { GateStatusEnum } from "../enums/gate-status-enum";
 import { GateTypeEnum } from "../enums/gate-type-enum";
+import { GuildPointsModel } from "./guild-points-model";
 import { RuneModel } from "./rune-model";
 
-//TODO change this later
 export type GateModel = {
-  rowPosition?: number;
-  type: GateTypeEnum;
-  status: GateStatusEnum;
-  costIncrement: number;
-  scrollCost: number;
-  totalBuffExperience: number;
-  efficiency: number;
-  runesList: RuneModel[];
-  imageUrl: string;
-  swipeCount: number;
+  rowPosition: number;
   row: number;
   column: number;
+  status: GateStatusEnum;
+  type: GateTypeEnum;
+  scrollCost: number;
+  scrollImage: string;
+  gateImage: string;
+  monsterImage: string;
+  gateDescription: string;
+  level?: number;
+  element?: ElementTypeEnum;
+  guildPoints?: GuildPointsModel;
+  runesList?: RuneModel[];
 };

@@ -26,108 +26,108 @@ const Area1: GateModel[] = [
 
 export default Area1;
 
-//TODO take data from here and delete this
+//TODO take data from here
 export const area1GateTypesInput: GateTypeEnum[] = [
   //row 1
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.SWEEP,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.GUILD,
-  GateTypeEnum.MONSTER_HARD,
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.SWEEP, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.GUILD, //
+  GateTypeEnum.MONSTER_HARD, //
   //row2
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.COOP_BOSS,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.COOP_BOSS, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
   //row3
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.GUILD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.ELEM_BOSS,
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.GUILD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.ELEM_BOSS, //
+  GateTypeEnum.MONSTER_EASY, //
   //row4
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.COOP_BOSS,
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.COOP_BOSS, //
   //row5
-  GateTypeEnum.ELEM_BOSS,
-  GateTypeEnum.COOP_BOSS,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.GUILD,
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.ELEM_BOSS, //
+  GateTypeEnum.COOP_BOSS, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.GUILD, //
+  GateTypeEnum.MONSTER_EASY, //
   //row6
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.ELEM_BOSS,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.COOP_BOSS,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.ELEM_BOSS, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.COOP_BOSS, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
   //row7
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.GUILD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.ELEM_BOSS,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.ELEM_BOSS,
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.GUILD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.ELEM_BOSS, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.ELEM_BOSS, //
   //row8
-  GateTypeEnum.ELEM_BOSS,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
+  GateTypeEnum.ELEM_BOSS, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
   //row9
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.GUILD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.COOP_BOSS,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.ELEM_BOSS,
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.GUILD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.COOP_BOSS, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.ELEM_BOSS, //
+  GateTypeEnum.MONSTER_EASY, //
   //row10
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.COOP_BOSS,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.GUILD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.GUILD,
-  GateTypeEnum.MONSTER_HARD,
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.COOP_BOSS, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.GUILD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.GUILD, //
+  GateTypeEnum.MONSTER_HARD, //
 ];
 
 export const area1RunesInput: unknown[][] = [

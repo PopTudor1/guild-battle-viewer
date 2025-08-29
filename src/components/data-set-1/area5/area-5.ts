@@ -28,7 +28,7 @@ export default Area5;
 
 export const area5GateTypesInput: GateTypeEnum[] = [
   //row 1
-  GateTypeEnum.COOP_BOSS,
+  GateTypeEnum.COOP_BOSS, //
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_EASY,
@@ -36,9 +36,9 @@ export const area5GateTypesInput: GateTypeEnum[] = [
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.ELEM_BOSS,
+  GateTypeEnum.ELEM_BOSS, //
   //row2
-  GateTypeEnum.MONSTER_HARD,
+  GateTypeEnum.MONSTER_HARD, //
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_EASY,
@@ -46,9 +46,9 @@ export const area5GateTypesInput: GateTypeEnum[] = [
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.COOP_BOSS,
-  GateTypeEnum.MONSTER_HARD,
+  GateTypeEnum.MONSTER_HARD, //
   //row3
-  GateTypeEnum.ELEM_BOSS,
+  GateTypeEnum.ELEM_BOSS, //
   GateTypeEnum.GUILD,
   GateTypeEnum.COOP_BOSS,
   GateTypeEnum.MONSTER_HARD,
@@ -56,9 +56,9 @@ export const area5GateTypesInput: GateTypeEnum[] = [
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.GUILD,
   GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.MONSTER_HARD,
+  GateTypeEnum.MONSTER_HARD, //
   //row4
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_EASY, //
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_EASY,
@@ -66,19 +66,19 @@ export const area5GateTypesInput: GateTypeEnum[] = [
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.ELEM_BOSS,
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_EASY, //
   //row5
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.ELEM_BOSS,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.GUILD,
-  GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.COOP_BOSS,
-  GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.ELEM_BOSS, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.GUILD, //
+  GateTypeEnum.MONSTER_EASY, //
+  GateTypeEnum.COOP_BOSS, //
+  GateTypeEnum.MONSTER_HARD, //
+  GateTypeEnum.MONSTER_EASY, //
   //row6
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_EASY, //
   GateTypeEnum.COOP_BOSS,
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_HARD,
@@ -86,9 +86,9 @@ export const area5GateTypesInput: GateTypeEnum[] = [
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_EASY,
-  GateTypeEnum.GUILD,
+  GateTypeEnum.GUILD, //
   //row7
-  GateTypeEnum.ELEM_BOSS,
+  GateTypeEnum.ELEM_BOSS, //
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.MONSTER_EASY,
@@ -96,9 +96,9 @@ export const area5GateTypesInput: GateTypeEnum[] = [
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.ELEM_BOSS,
   GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_EASY, //
   //row8
-  GateTypeEnum.MONSTER_HARD,
+  GateTypeEnum.MONSTER_HARD, //
   GateTypeEnum.GUILD,
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.COOP_BOSS,
@@ -106,7 +106,7 @@ export const area5GateTypesInput: GateTypeEnum[] = [
   GateTypeEnum.GUILD,
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.MONSTER_HARD,
-  GateTypeEnum.ELEM_BOSS,
+  GateTypeEnum.ELEM_BOSS, //
   //row9
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.MONSTER_EASY,
@@ -116,7 +116,7 @@ export const area5GateTypesInput: GateTypeEnum[] = [
   GateTypeEnum.MONSTER_EASY,
   GateTypeEnum.COOP_BOSS,
   GateTypeEnum.GUILD,
-  GateTypeEnum.MONSTER_HARD,
+  GateTypeEnum.MONSTER_HARD, //
   //row10
   GateTypeEnum.GUILD,
   GateTypeEnum.COOP_BOSS,
@@ -126,7 +126,7 @@ export const area5GateTypesInput: GateTypeEnum[] = [
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.MONSTER_HARD,
   GateTypeEnum.ELEM_BOSS,
-  GateTypeEnum.MONSTER_EASY,
+  GateTypeEnum.MONSTER_EASY, //
 ];
 
 export const area5RunesInput: unknown[][] = [
