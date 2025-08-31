@@ -74,7 +74,7 @@ const A2Row1: GateModel[] = [
     gateDescription: GateTypeEnumDescription[GateTypeEnum.GUILD],
     level: 1,
     element: undefined,
-    guildPoints: { imageUrl: GuildPointsImg, points: 5 },
+    guildPoints: { imageUrl: GuildPointsImg, points: 25 },
     runesList: undefined,
   },
   {

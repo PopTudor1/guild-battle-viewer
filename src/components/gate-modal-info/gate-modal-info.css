@@ -58,6 +58,12 @@
   padding: 4px 32px;
   border: 1px solid orange;
   border-radius: 8px;
+  gap: 8px;
+  align-items: center;
+
+  @media (max-width: 1024px) {
+    padding: 4px 8px;
+  }
 }
 
 .level {
@@ -68,6 +74,24 @@
   @media (max-width: 1024px) {
     font-size: 14px;
   }
+}
+
+.level-button {
+  background: #eee;
+  border: none;
+  padding: 2px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s;
+
+  @media (max-width: 1024px) {
+    padding: 0px 8px;
+  }
+}
+
+.level-button:hover {
+  background: #ddd;
 }
 
 .description-container {
