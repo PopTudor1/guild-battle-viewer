@@ -67,7 +67,7 @@ export default function GateModalInfo({ gate }: Props) {
                   title="Decrease level"
                   disabled={localGate.level === 1}
                 >
-                  ⬅
+                  ➖
                 </button>
                 <span className="level">Level {localGate.level ?? "N/A"}</span>
                 <button
@@ -76,7 +76,7 @@ export default function GateModalInfo({ gate }: Props) {
                   title="Increase level"
                   disabled={localGate.level === 51}
                 >
-                  ➡
+                  ➕
                 </button>
               </>
             ) : (
