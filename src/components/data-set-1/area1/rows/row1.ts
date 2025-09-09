@@ -188,7 +188,7 @@ const A1Row1: GateModel[] = [
       },
       {
         rune: RuneTypeEnum.C,
-        chance: 1, //TODO check this in future GB
+        chance: 1,
         imageUrl: CRune,
       },
     ],

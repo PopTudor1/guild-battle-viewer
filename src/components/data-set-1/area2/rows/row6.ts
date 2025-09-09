@@ -177,7 +177,7 @@ const A2Row6: GateModel[] = [
     column: 8,
     status: GateStatusEnum.UNCLEARED,
     type: GateTypeEnum.ELEM_BOSS,
-    scrollCost: 12,
+    scrollCost: 10,
     scrollImage: ScrollImage,
     gateImage: ElemBossGate,
     monsterImage: InfernalBossImg,

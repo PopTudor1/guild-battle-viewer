@@ -47,7 +47,7 @@ const A5Row1: GateModel[] = [
     element: undefined,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 390,
     },
     runesList: undefined,
   },
