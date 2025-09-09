@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
 import GuildPointsImg from "../../assets/guild-points-icon.png";
+import {
+  ElementTypeEnum,
+  ElementTypeEnumLabel,
+} from "../../enums/element-type-enum";
 import { GateTypeEnum, GateTypeEnumLabel } from "../../enums/gate-type-enum";
 import { GateModel } from "../../models/gate-model";
 import { useMobileView } from "../../utils/use-mobile-view";
@@ -80,7 +84,41 @@ export default function GateModalInfo({ gate }: Props) {
                 </button>
               </>
             ) : (
-              <span className="level">Level {localGate.level ?? "N/A"}</span>
+              <>
+                <span
+                  className="level"
+                  style={{
+                    color:
+                      localGate.element === ElementTypeEnum.INFERNAL
+                        ? "red"
+                        : localGate.element === ElementTypeEnum.CELESTIAL
+                        ? "lightblue"
+                        : localGate.element === ElementTypeEnum.NATURE
+                        ? "lightgreen"
+                        : "white",
+                  }}
+                >
+                  Level {localGate.level ?? "N/A"}
+                </span>
+
+                {localGate.element && (
+                  <span
+                    className="level"
+                    style={{
+                      color:
+                        localGate.element === ElementTypeEnum.INFERNAL
+                          ? "red"
+                          : localGate.element === ElementTypeEnum.CELESTIAL
+                          ? "lightblue"
+                          : localGate.element === ElementTypeEnum.NATURE
+                          ? "lightgreen"
+                          : "white",
+                    }}
+                  >
+                    {ElementTypeEnumLabel[localGate.element]}
+                  </span>
+                )}
+              </>
             )}
           </div>
 
