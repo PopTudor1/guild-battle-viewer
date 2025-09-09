@@ -21,7 +21,7 @@ import GuildPointsImg from "../../../../assets/guild-points-icon.png";
 import ScrollImage from "../../../../assets/scroll.png";
 
 import ElemBossGate from "../../../../assets/guild-battle-gates/elem-boss-gate.png";
-import CelestialBossImg from "../../../../assets/monster-images/celestial-boss.png";
+import NatureBossImg from "../../../../assets/monster-images/nature-boss.png";
 
 import CoopBossGate from "../../../../assets/guild-battle-gates/coop-boss-gate.png";
 import CoopBossImg from "../../../../assets/monster-images/co-op-monster.png";
@@ -40,13 +40,13 @@ const A1Row5: GateModel[] = [
     scrollCost: 10,
     scrollImage: ScrollImage,
     gateImage: ElemBossGate,
-    monsterImage: CelestialBossImg,
+    monsterImage: NatureBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.ELEM_BOSS],
-    level: 1,
-    element: ElementTypeEnum.CELESTIAL,
+    level: 8,
+    element: ElementTypeEnum.NATURE,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 104,
     },
     runesList: [
       {
@@ -77,11 +77,11 @@ const A1Row5: GateModel[] = [
     gateImage: CoopBossGate,
     monsterImage: CoopBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.COOP_BOSS],
-    level: 1,
+    level: 5,
     element: undefined,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 270,
     },
     runesList: undefined,
   },

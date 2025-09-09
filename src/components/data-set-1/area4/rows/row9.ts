@@ -22,7 +22,7 @@ import GuildPointsImg from "../../../../assets/guild-points-icon.png";
 import ScrollImage from "../../../../assets/scroll.png";
 
 import ElemBossGate from "../../../../assets/guild-battle-gates/elem-boss-gate.png";
-import CelestialBossImg from "../../../../assets/monster-images/celestial-boss.png";
+import NatureBossImg from "../../../../assets/monster-images/nature-boss.png";
 
 import GuildGate from "../../../../assets/guild-battle-gates/guild-gate.png";
 import BattlegroundImg from "../../../../assets/monster-images/battleground-monster.png";
@@ -75,11 +75,11 @@ const A4Row9: GateModel[] = [
     scrollCost: 10,
     scrollImage: ScrollImage,
     gateImage: ElemBossGate,
-    monsterImage: CelestialBossImg,
+    monsterImage: NatureBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.ELEM_BOSS],
-    level: 1,
-    element: ElementTypeEnum.CELESTIAL,
-    guildPoints: { imageUrl: GuildPointsImg, points: 10 },
+    level: 29,
+    element: ElementTypeEnum.NATURE,
+    guildPoints: { imageUrl: GuildPointsImg, points: 644 },
     runesList: [
       { rune: RuneTypeEnum.D, chance: 100, imageUrl: DRune },
       { rune: RuneTypeEnum.B, chance: 20, imageUrl: BRune },
@@ -158,11 +158,11 @@ const A4Row9: GateModel[] = [
     scrollCost: 10,
     scrollImage: ScrollImage,
     gateImage: ElemBossGate,
-    monsterImage: CelestialBossImg,
+    monsterImage: NatureBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.ELEM_BOSS],
-    level: 1,
-    element: ElementTypeEnum.CELESTIAL,
-    guildPoints: { imageUrl: GuildPointsImg, points: 10 },
+    level: 33,
+    element: ElementTypeEnum.NATURE,
+    guildPoints: { imageUrl: GuildPointsImg, points: 816 },
     runesList: [
       { rune: RuneTypeEnum.D, chance: 100, imageUrl: DRune },
       { rune: RuneTypeEnum.A, chance: 20, imageUrl: ARune },

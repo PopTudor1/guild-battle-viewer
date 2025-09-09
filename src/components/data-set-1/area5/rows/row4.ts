@@ -23,7 +23,7 @@ import GuildPointsImg from "../../../../assets/guild-points-icon.png";
 import ScrollImage from "../../../../assets/scroll.png";
 
 import ElemBossGate from "../../../../assets/guild-battle-gates/elem-boss-gate.png";
-import CelestialBossImg from "../../../../assets/monster-images/celestial-boss.png";
+import NatureBossImg from "../../../../assets/monster-images/nature-boss.png";
 
 import { ElementTypeEnum } from "../../../../enums/element-type-enum";
 
@@ -181,13 +181,13 @@ const A5Row4: GateModel[] = [
     scrollCost: 10,
     scrollImage: ScrollImage,
     gateImage: ElemBossGate,
-    monsterImage: CelestialBossImg,
+    monsterImage: NatureBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.ELEM_BOSS],
-    level: 1,
-    element: ElementTypeEnum.CELESTIAL,
+    level: 24,
+    element: ElementTypeEnum.NATURE,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 460,
     },
     runesList: [
       { rune: RuneTypeEnum.D, chance: 100, imageUrl: DRune },

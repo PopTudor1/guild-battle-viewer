@@ -59,11 +59,11 @@ const A4Row1: GateModel[] = [
     gateImage: CoopBossGate,
     monsterImage: CoopBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.COOP_BOSS],
-    level: 1,
+    level: 5,
     element: undefined,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 270,
     },
     runesList: undefined,
   },

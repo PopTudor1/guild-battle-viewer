@@ -24,6 +24,7 @@ import ScrollImage from "../../../../assets/scroll.png";
 
 import ElemBossGate from "../../../../assets/guild-battle-gates/elem-boss-gate.png";
 import CelestialBossImg from "../../../../assets/monster-images/celestial-boss.png";
+import InfernalBossImg from "../../../../assets/monster-images/infernal-boss.png";
 import { ElementTypeEnum } from "../../../../enums/element-type-enum";
 
 const A3Row6: GateModel[] = [
@@ -38,11 +39,11 @@ const A3Row6: GateModel[] = [
     gateImage: ElemBossGate,
     monsterImage: CelestialBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.ELEM_BOSS],
-    level: 1,
+    level: 23,
     element: ElementTypeEnum.CELESTIAL,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 427,
     },
     runesList: [
       { rune: RuneTypeEnum.D, chance: 100, imageUrl: DRune },
@@ -80,13 +81,13 @@ const A3Row6: GateModel[] = [
     scrollCost: 10,
     scrollImage: ScrollImage,
     gateImage: ElemBossGate,
-    monsterImage: CelestialBossImg,
+    monsterImage: InfernalBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.ELEM_BOSS],
-    level: 1,
-    element: ElementTypeEnum.CELESTIAL,
+    level: 8,
+    element: ElementTypeEnum.INFERNAL,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 104,
     },
     runesList: [
       { rune: RuneTypeEnum.D, chance: 100, imageUrl: DRune },
@@ -207,11 +208,11 @@ const A3Row6: GateModel[] = [
     gateImage: ElemBossGate,
     monsterImage: CelestialBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.ELEM_BOSS],
-    level: 1,
+    level: 25,
     element: ElementTypeEnum.CELESTIAL,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 494,
     },
     runesList: [
       { rune: RuneTypeEnum.D, chance: 100, imageUrl: DRune },

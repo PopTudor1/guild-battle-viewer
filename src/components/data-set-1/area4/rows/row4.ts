@@ -84,11 +84,11 @@ const A4Row4: GateModel[] = [
     gateImage: ElemBossGate,
     monsterImage: CelestialBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.ELEM_BOSS],
-    level: 1,
+    level: 9,
     element: ElementTypeEnum.CELESTIAL,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 116,
     },
     runesList: [
       { rune: RuneTypeEnum.D, chance: 100, imageUrl: DRune },
@@ -107,11 +107,11 @@ const A4Row4: GateModel[] = [
     gateImage: CoopBossGate,
     monsterImage: CoopBossImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.COOP_BOSS],
-    level: 1,
+    level: 5,
     element: undefined,
     guildPoints: {
       imageUrl: GuildPointsImg,
-      points: 5,
+      points: 270,
     },
     runesList: undefined,
   },
