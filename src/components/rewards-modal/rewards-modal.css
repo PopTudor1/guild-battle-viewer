@@ -1,0 +1,53 @@
+.rewards-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.rewards-modal-content {
+  background: brown;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1024px) {
+    padding: 10px;
+  }
+}
+
+.rewards-modal-content img {
+  max-width: 100%;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.rewards-modal-close {
+  position: absolute;
+  top: 39px;
+  right: 42px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+  color: white;
+
+  @media (max-width: 1024px) {
+    font-size: 25px;
+    font-weight: 800;
+    top: 18px;
+    right: 18px;
+  }
+}

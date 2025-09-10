@@ -58,3 +58,23 @@
     gap: 8px;
   }
 }
+
+.rewards-button-img {
+  object-fit: contain;
+  width: 80px;
+
+  @media (max-width: 1024px) {
+    width: 50px;
+  }
+}
+
+.viewer-header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-top: 8px;
+
+  @media (max-width: 1024px) {
+    padding-top: 0px;
+  }
+}

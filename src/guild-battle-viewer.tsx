@@ -1,7 +1,11 @@
 import { useState } from "react";
+import battleRewardImg from "./assets/guild-battle-rewards/battle-reward-button.png";
+import rewards2Img from "./assets/guild-battle-rewards/guild-battle-rewards-2-modal.png";
+import rewards1Img from "./assets/guild-battle-rewards/guild-battle-rewards-modal.png";
 import AreasList1 from "./components/data-set-1/areas-list-1";
 import GateGrid from "./components/gate-grid/gate-grid";
 import GateModalInfo from "./components/gate-modal-info/gate-modal-info";
+import RewardsModal from "./components/rewards-modal/rewards-modal";
 import "./guid-battle-viewer.css";
 import { AreaModel } from "./models/area-model";
 import { GateModel } from "./models/gate-model";
@@ -9,6 +13,8 @@ import { GateModel } from "./models/gate-model";
 export default function GuildBattleViewer() {
   const [selectedArea, setSelectedArea] = useState<AreaModel>(AreasList1[0]);
   const [selectedGate, setSelectedGate] = useState<GateModel | null>(null);
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const grid: (GateModel | null)[][] = Array.from({ length: 10 }, () =>
     Array.from({ length: 9 }, () => null)
@@ -29,9 +35,18 @@ export default function GuildBattleViewer() {
 
   return (
     <div className="guild-battle-viewer">
-      <span className="title">Guild Battle Viewer</span>
+      <div className="viewer-header">
+        <span className="title">Guild Battle Viewer</span>
+        <img
+          src={battleRewardImg}
+          alt="Open Modal"
+          className="rewards-button-img"
+          style={{ cursor: "pointer" }}
+          onClick={() => setIsModalOpen(true)}
+        />
+      </div>
       <span className="madeBy">
-        ( made by Tudique26 from the KNIGHTSXORDER guild on Trakan server )
+        ( made by Tudique26 from the KNIGHTSXORDER guild on Trakan US server )
       </span>
 
       <div>
@@ -67,6 +82,11 @@ export default function GuildBattleViewer() {
           </>
         )}
       </div>
+
+      <RewardsModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
+        <img src={rewards1Img} alt="First" />
+        <img src={rewards2Img} alt="Second" />
+      </RewardsModal>
     </div>
   );
 }
