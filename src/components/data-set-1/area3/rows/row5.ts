@@ -36,7 +36,7 @@ const A3Row5: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 28,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -57,7 +57,7 @@ const A3Row5: GateModel[] = [
     gateImage: MonsterHardGate,
     monsterImage: MonsterHardImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_HARD],
-    level: undefined,
+    level: 13,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -78,7 +78,7 @@ const A3Row5: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 10,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -116,7 +116,7 @@ const A3Row5: GateModel[] = [
     gateImage: MonsterHardGate,
     monsterImage: MonsterHardImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_HARD],
-    level: undefined,
+    level: 3,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -136,7 +136,7 @@ const A3Row5: GateModel[] = [
     gateImage: MonsterHardGate,
     monsterImage: MonsterHardImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_HARD],
-    level: undefined,
+    level: 5,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -156,7 +156,7 @@ const A3Row5: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 12,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -195,7 +195,7 @@ const A3Row5: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 30,
     element: undefined,
     guildPoints: undefined,
     runesList: [

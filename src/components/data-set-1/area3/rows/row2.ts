@@ -58,7 +58,7 @@ const A3Row2: GateModel[] = [
     gateImage: MonsterHardGate,
     monsterImage: MonsterHardImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_HARD],
-    level: undefined,
+    level: 3,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -78,7 +78,7 @@ const A3Row2: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 2,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -97,7 +97,7 @@ const A3Row2: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 1,
     element: undefined,
     guildPoints: undefined,
     runesList: [{ rune: RuneTypeEnum.D, chance: 100, imageUrl: DRune }],
@@ -113,7 +113,7 @@ const A3Row2: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 1,
     element: undefined,
     guildPoints: undefined,
     runesList: [{ rune: RuneTypeEnum.D, chance: 100, imageUrl: DRune }],
@@ -129,7 +129,7 @@ const A3Row2: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 2,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -148,7 +148,7 @@ const A3Row2: GateModel[] = [
     gateImage: MonsterHardGate,
     monsterImage: MonsterHardImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_HARD],
-    level: undefined,
+    level: 4,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -187,7 +187,7 @@ const A3Row2: GateModel[] = [
     gateImage: MonsterHardGate,
     monsterImage: MonsterHardImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_HARD],
-    level: undefined,
+    level: 24,
     element: undefined,
     guildPoints: undefined,
     runesList: [

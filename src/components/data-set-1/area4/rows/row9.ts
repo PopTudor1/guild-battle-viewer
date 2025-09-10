@@ -56,7 +56,7 @@ const A4Row9: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 43,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -98,7 +98,7 @@ const A4Row9: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 33,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -119,7 +119,7 @@ const A4Row9: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 31,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -139,7 +139,7 @@ const A4Row9: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 29,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -181,7 +181,7 @@ const A4Row9: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 41,
     element: undefined,
     guildPoints: undefined,
     runesList: [
@@ -201,7 +201,7 @@ const A4Row9: GateModel[] = [
     gateImage: MonsterEasyGate,
     monsterImage: MonsterEasyImg,
     gateDescription: GateTypeEnumDescription[GateTypeEnum.MONSTER_EASY],
-    level: undefined,
+    level: 45,
     element: undefined,
     guildPoints: undefined,
     runesList: [
